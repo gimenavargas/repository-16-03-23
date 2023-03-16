@@ -15,10 +15,11 @@ public class Ejercicio4IngresarDatos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner entrada=new Scanner(System.in);
+        String nombre;
+        Scanner datos=new Scanner(System.in);
         System.out.println("ingresa tu nombre:");
-        String cadena=entrada.nextLine();
-      
-        
+        nombre = datos.nextLine();
+        System.out.println("¡Hola " + nombre + "!");
+       
     }
 }
