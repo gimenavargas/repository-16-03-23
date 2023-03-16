@@ -21,5 +21,11 @@ public class Ejercicio4IngresarDatos {
         nombre = datos.nextLine();
         System.out.println("¡Hola " + nombre + "!");
        
+         Scanner reader = new Scanner(System.in);
+         
+         int valor =0;
+         System.out.println("Ingresar numero:");
+         valor = reader.nextInt();
+
     }
 }
