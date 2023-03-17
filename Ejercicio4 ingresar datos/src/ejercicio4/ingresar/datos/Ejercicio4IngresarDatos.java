@@ -17,18 +17,18 @@ public class Ejercicio4IngresarDatos {
         // TODO code application logic here
         String nombre;
         Scanner datos=new Scanner(System.in);
-        System.out.println("ingresa tu nombre:");
+        System.out.println("Ingresa tu nombre:");
         nombre = datos.nextLine();
         System.out.println("¡Hola " + nombre + "!");
        
-         Scanner reader = new Scanner(System.in);
+         Scanner number = new Scanner(System.in);
          
          System.out.println("Determina el numero maximo a comentar:");
-         int valor1 = valor1=reader.nextInt();
-         System.out.println("ingresar numero:");
-         int valor2 = valor2=reader.nextInt();
+         int valor1 = valor1=number.nextInt();
+         System.out.println("Ingresar numero:");
+         int valor2 = valor2=number.nextInt();
          if(valor1<valor2)
-         System.out.println("el valor ingresado es mayor que "+valor1 +nombre);
+         System.out.println("El valor ingresado es mayor que "+valor1 +nombre);
          if(valor1>valor2)
          System.out.println("El valor ingresado es menor que "+valor1 +nombre);
     }
