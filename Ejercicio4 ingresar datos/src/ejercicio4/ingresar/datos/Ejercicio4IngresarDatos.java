@@ -23,13 +23,14 @@ public class Ejercicio4IngresarDatos {
        
          Scanner reader = new Scanner(System.in);
          
-         System.out.println("Ingresar numero:");
+         System.out.println("Determina el numero maximo a comentar:");
          int valor1 = valor1=reader.nextInt();
-        
-         int valor2 =10;
+         System.out.println("ingresar numero:");
+         int valor2 = valor2=reader.nextInt();
+         if(valor1<valor2)
+         System.out.println("el valor ingresado es mayor que "+valor1 +nombre);
          if(valor1>valor2)
-         System.out.println("el valor ingresado es mayor que "+valor2 + nombre);
-         
+         System.out.println("El valor ingresado es menor que "+valor1 +nombre);
     }
          
 }
