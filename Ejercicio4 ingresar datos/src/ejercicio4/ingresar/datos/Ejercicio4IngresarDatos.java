@@ -31,6 +31,8 @@ public class Ejercicio4IngresarDatos {
          System.out.println("El valor ingresado es mayor que "+valor1+" estimad@ "+nombre);
          if(valor1>valor2)
          System.out.println("El valor ingresado es menor que " +valor1+" estimad@ " +nombre);
+         if(valor1==valor2)
+         System.out.println("Elnumero ingresado es igual que "+valor1+" estimad@ " +nombre);
     }
          
 }
