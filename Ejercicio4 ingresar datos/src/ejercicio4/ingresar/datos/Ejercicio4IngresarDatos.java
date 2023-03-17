@@ -25,12 +25,12 @@ public class Ejercicio4IngresarDatos {
          
          System.out.println("Determina el numero maximo a comentar:");
          int valor1 = valor1=number.nextInt();
-         System.out.println("Ingresar numero:");
+         System.out.println("Ingresar numero "+nombre+ ":");
          int valor2 = valor2=number.nextInt();
          if(valor1<valor2)
-         System.out.println("El valor ingresado es mayor que "+valor1 +nombre);
+         System.out.println("El valor ingresado es mayor que "+valor1+" estimad@ "+nombre);
          if(valor1>valor2)
-         System.out.println("El valor ingresado es menor que "+valor1 +nombre);
+         System.out.println("El valor ingresado es menor que " +valor1+" estimad@ " +nombre);
     }
          
 }
