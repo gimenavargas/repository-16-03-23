@@ -23,9 +23,19 @@ public class Ejercicio4IngresarDatos {
        
          Scanner reader = new Scanner(System.in);
          
-         int valor =0;
+         int valor1 =0;
          System.out.println("Ingresar numero:");
-         valor = reader.nextInt();
-
+         valor1=reader.nextInt();
+         
+         int valor2 =0;
+         System.out.println("Ingresar numero");
+         valor2=reader.nextInt();
+         
+         if(valor1<valor2)
+         System.out.println("El valor 2 es mayor que el valor 1");
+         
+         if(valor1>valor2)
+         System.out.println("El valor 2 es menor que el valor 1");
     }
+         
 }
